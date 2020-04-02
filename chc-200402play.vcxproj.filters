@@ -33,4 +33,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="menu.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="saida.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="teste.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
