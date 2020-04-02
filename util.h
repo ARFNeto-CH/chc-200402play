@@ -1,4 +1,5 @@
 #pragma once
+
 #define         _WIN32_WINNT 0x0A00
 #define         _CRT_SECURE_NO_WARNINGS
 #define         _ARFNETO_ CH2019
