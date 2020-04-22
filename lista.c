@@ -6,8 +6,6 @@
 
 #include "lista.h"
 
-
-
 Lista*  apagar(Lista* l)
 {   // apagar e como listar()
     if (l == NULL)

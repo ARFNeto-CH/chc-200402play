@@ -147,7 +147,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lista.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="util.c" />
   </ItemGroup>
@@ -159,6 +158,9 @@
     <Text Include="menu.txt" />
     <Text Include="saida.txt" />
     <Text Include="teste.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="teste.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

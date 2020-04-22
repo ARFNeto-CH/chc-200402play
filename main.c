@@ -159,7 +159,8 @@ int teste2()
     };  // for
 
     // agora cria umas musicas e grava na saida
-    for (int i = 0; i < 10; i = i + 1) playlist = inserir((void*)fabrica(1), playlist);
+    for (int i = 0; i < 10; i = i + 1)
+        playlist = inserir((void*)fabrica(1), playlist);
     n = listar(playlist);
     printf("listar() retornou %d\n", n);
 
